@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "kind": "halt_coverage_attestation",
+  "screen_date": "2026-11-03",
+  "opening_window_start_et": "09:30:00",
+  "opening_window_end_et": "09:35:00",
+  "coverage_scope": "EXACT_UNIVERSE",
+  "coverage_complete": false,
+  "coverage_attested": false,
+  "universe_file_sha256": "e15fd6eedbf096b83ff76a7557e1511ad34bfd787e935d13475c2514d7d9d2ba",
+  "universe_symbols_sha256": "c5d40a3b2d288ab5e343369d216b7adf4eb8ba20933c77d3089563e4486c966d",
+  "universe_symbol_count": 5,
+  "halt_events_file_sha256": "4a1c6785b8b853f13308219547c2b2b0b0a7aa0134dab2234a3a683906df1940",
+  "source_name": "Cboe 2026 Historical Halts CSV",
+  "source_url": "https://www-api.cboe.com/us/equities/market_statistics/halts/downloads/BatsHalts2026.csv",
+  "source_data_available_by_cutoff": false,
+  "source_available_at_et": "",
+  "source_availability_proof": "",
+  "attested_by": "",
+  "attestation_notes": "",
+  "warning": "Keep all attestation fields false/blank until source methodology, venue scope, exact-universe coverage, event-time semantics, and availability by 09:35 ET are independently established. Retrospective end-of-day archives cannot establish real-time availability at the opening-range cutoff."
+}

@@ -1,0 +1,9 @@
+Milestone 2 build validation
+============================
+Environment: Python 3.13.5, Pandas 2.2.3
+Unit tests: 17 passed
+Python imports and compilation: passed through test collection and execution
+CLI help: passed
+Live Alpaca MCP connection: NOT run (no project credentials accessed)
+Historical bar retrieval: NOT run
+Broker orders/positions: no tools imported or called

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "kind": "security_classification",
+  "as_of_date": "2026-11-05",
+  "source_created_at_et": "2026-11-04T17:02:00-05:00",
+  "directory_age_calendar_days": 1,
+  "nasdaq_traded_file": "G:\\orb-stock-research\\reference_data\\nasdaq\\nasdaqtraded_2026-11-04.txt",
+  "nasdaq_traded_sha256": "3e0a1a10d7d163c5ad44d536ad569f163e70770f8f3faa24eb7e69ca42be3092",
+  "output_file": "G:\\orb-stock-research\\data\\reference\\security_classification_2026-11-05.csv",
+  "output_sha256": "e5713a27ef9f76d766df880fe086cfa5c2b4a02175c6dbfcdaffbbfa5faf1a75",
+  "source_urls": {
+    "nasdaq_traded": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqtraded.txt",
+    "symbol_directory_alerts": "https://www.nasdaqtrader.com/",
+    "symbol_directory_definitions": "https://www.nasdaqtrader.com/trader.aspx?id=symboldirdefs"
+  },
+  "counts": {
+    "symbols": 14233,
+    "etf": 5777,
+    "non_etf": 8456,
+    "unknown": 0,
+    "test_issue": 37
+  },
+  "classification_semantics": "ETF/NON_ETF only when Nasdaq Trader explicitly supplies ETF=Y/N. NON_ETF is not asserted to mean COMMON_STOCK."
+}
